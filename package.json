@@ -8,7 +8,6 @@
   "author": "",
   "license": "",
   "dependencies": {
-    "aria-mocha": "^0.7.1",
-    "assert": "^2.0.0"
+    "aria-mocha": "^0.7.1"
   }
 }
