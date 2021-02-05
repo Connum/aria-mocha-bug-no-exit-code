@@ -1,0 +1,14 @@
+{
+  "name": "aria-mocha-bug-no-exit-code",
+  "version": "1.0.0",
+  "description": "This is a minimal example for reproducing a bug where avia does not exit with a negative exit code when there are failed tests, thus still executing any following command.",
+  "scripts": {
+    "test": "aria-mocha -d ./lib && echo '==> this should not be echoed'"
+  },
+  "author": "",
+  "license": "",
+  "dependencies": {
+    "aria-mocha": "^0.7.1",
+    "assert": "^2.0.0"
+  }
+}
